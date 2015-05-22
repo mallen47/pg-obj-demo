@@ -1,0 +1,6 @@
+ENV['base_url']              ||= 'http://www.containerstore.com'
+ENV['browser']               ||= 'chrome'
+ENV['test_user_login']       ||= '/data/login.csv'
+ENV['shipping_address']      ||= '/data/shipping_address.csv'
+ENV['shipping_method_phone'] ||= '/data/shipping_method_phone.csv'
+ENV['payment_info']          ||= '/data/billing_payment_info.csv'
